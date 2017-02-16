@@ -5,10 +5,15 @@
   "author": "Vitor Balocco <vitorbal@gmail.com>",
   "main": "lib/index.js",
   "dependencies": {
-    "eslint": "^3.6.1",
     "esprima": "^3.1.1",
     "esprima-walk": "^0.1.0",
     "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.6.1"
   },
   "engines": {
     "node": ">=4"
