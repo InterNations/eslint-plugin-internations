@@ -14,10 +14,13 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-internations` and its peer dependencies:
 
 ```
-$ npm install eslint-plugin-internations eslint-plugin-react babel-eslint --save-dev
+(
+  export PKG=eslint-plugin-internations;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/@/@/g' | xargs npm install --save-dev "$PKG@latest"
+)
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-internations` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-internations` and its peer dependencies globally.
 
 ## Usage
 
