@@ -15,7 +15,9 @@
     "esprima-walk": "^0.1.0",
     "requireindex": "~1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.7.1"
+  },
   "peerDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.7.1",
