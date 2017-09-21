@@ -12,5 +12,5 @@ module.exports = {
     parserOptions: recommended.parserOptions,
 
     // Enable the same rules as `plugin:internations/recommended` would, except the internations and react rules.
-    rules: lodash.pickBy(recommended.rules, (value, key) => !key.startsWith('internations') && !key.startsWith('react')),
+    rules: lodash.pickBy(recommended.rules, (value, key) => !key.startsWith('internations') && !key.startsWith('react') && !key.startsWith('prettier')),
 };
