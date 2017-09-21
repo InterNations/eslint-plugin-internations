@@ -5,21 +5,18 @@
   "author": "Vitor Balocco <vitorbal@gmail.com>",
   "main": "lib/index.js",
   "dependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0",
-    "esprima": "^3.1.1",
+    "esprima": "^4.0.0",
     "esprima-walk": "^0.1.0",
     "requireindex": "~1.1.0"
   },
-  "devDependencies": {
-    "eslint": "^3.15.0"
-  },
+  "devDependencies": {},
   "peerDependencies": {
-    "babel-eslint": "^7.0.0",
-    "eslint": "^3.15.0"
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
   },
   "scripts": {
     "lint": "eslint ./lib"
