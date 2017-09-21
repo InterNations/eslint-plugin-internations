@@ -1,9 +1,15 @@
 {
   "name": "eslint-plugin-internations",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Custom ESLint rules and recommended rule configuration for internal InterNations usage",
   "author": "Vitor Balocco <vitorbal@gmail.com>",
   "main": "lib/index.js",
+  "contributors": [
+    {
+      "name": "Francesco Zanini",
+      "url": "https://twitter.com/zanini_me"
+    }
+  ],
   "dependencies": {
     "esprima": "^4.0.0",
     "esprima-walk": "^0.1.0",
