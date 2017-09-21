@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-internations",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Custom ESLint rules and recommended rule configuration for internal InterNations usage",
   "author": "Vitor Balocco <vitorbal@gmail.com>",
   "main": "lib/index.js",
