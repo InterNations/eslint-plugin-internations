@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-internations",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Custom ESLint rules and recommended rule configuration for internal InterNations usage",
   "author": "Vitor Balocco <vitorbal@gmail.com>",
   "main": "lib/index.js",
@@ -20,15 +20,15 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.7.1"
+    "eslint": "^7.7.0",
+    "eslint-plugin-import": "^2.22.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^8.0.0",
     "eslint": "^4.7.1",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6"
   },
   "scripts": {
     "lint": "eslint ./lib"
