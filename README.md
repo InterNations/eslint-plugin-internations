@@ -1,3 +1,11 @@
+# :warning: DEPRECATED :warning:
+
+Instead use https://github.com/InterNations/community/tree/prod/eslint-plugin
+
+This repository should be removed along with the classic site.
+
+---
+
 # eslint-plugin-internations
 [![npm version](https://badge.fury.io/js/eslint-plugin-internations.svg)](https://badge.fury.io/js/eslint-plugin-internations)
 
